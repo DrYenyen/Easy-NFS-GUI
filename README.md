@@ -8,7 +8,7 @@ Most of the source code for this came from my other GUI for PPPwn.
 3. Back on your PS4 make sure it is currently exploited.
 4. Connect to the same network as your PC.
 5. Launch Itemzflow and after the "download covers" prompt (if you haven't disabled it) press "Options" on your controller.
-6. In Itemzflow settings locate and select "Fuse NFS IP"
+6. In Itemzflow settings locate and select "Fuse NFS IP".
 7. There input your PC/Server IP address and press R2 for example: 192.168.1.14
 * To only access specific subfolders you can do so when you Fuse the NFS IP in itemzflow for example: nfs://192.168.1.14/fpkgs
 * This will give you access to the following sample path D:\PS4\Games\fpkgs
