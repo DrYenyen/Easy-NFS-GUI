@@ -1,1 +1,36 @@
-Test
+# Build NFS-GUI
+
+name: Build NFS-GUI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-Windows:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'  
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyinstaller
+
+    - name: Compile GUI
+      run: |
+        pyinstaller --onefile --noconsole --icon=imgs/icon.ico Easy-NFS-GUI.py
+
+    - name: Release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        gh release create v1.0.0 dist/Easy-NFS-GUI.exe --title "Easy-NFS-GUI v1.0" 
