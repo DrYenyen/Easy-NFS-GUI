@@ -5,7 +5,7 @@ And it is as always open source this time it compiles and releases through githu
 
 # Instructions  
 1. The GUI needs this NFS server https://github.com/winnfsd/winnfsd/releases/tag/2.4.0 in the same directory as it. 
-2. Open the GUI and set the share folder and your IP by reading your current IP or using the IP info button to view all IP info then press the "Run NFS server" button. 
+2. Open the GUI and set the share folder (for example D:\PS4\Games) and your IP by reading your current IP or using the IP info button to view all IP info then press the "Run NFS server" button. 
 3. Back on your PS4 make sure it is currently exploited.
 4. Connect to the same network as your PC.
 5. Launch Itemzflow and after the "download covers" prompt (if you haven't disabled it) press "Options" on your controller.
