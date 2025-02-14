@@ -1,6 +1,7 @@
 # Easy-NFS-GUI
 A GUI to help setup a Windows NFS for use with Itemzflow.
 Most of the source code for this came from my other GUI for PPPwn. 
+And it is as always open source this time it compiles and releases through github since i only need to release the exe.
 
 # Instructions  
 1. The GUI needs this NFS server https://github.com/winnfsd/winnfsd/releases/tag/2.4.0 in the same directory as it. 
