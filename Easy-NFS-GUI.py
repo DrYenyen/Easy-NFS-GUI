@@ -21,7 +21,7 @@ def get_ip_info():
     except Exception as e:
         ip_info.set("Error fetching IP")
 
-# Gets the home directory path for saving user choices this makes it so that when redownloading the GUI you don't need to set it up again.
+# Gets the home directory path for saving user choices this makes it so that when redownloading the GUI you don't need to set it up again
 def get_file_path(filename):
     home_dir = os.path.expanduser("~")
     return os.path.join(home_dir, filename)
