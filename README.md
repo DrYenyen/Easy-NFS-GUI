@@ -13,6 +13,7 @@ And it is as always open source this time it compiles and releases through githu
 7. There input your PC/Server IP address and press R2 for example: 192.168.1.14
 * To only access specific subfolders you can do so when you Fuse the NFS IP in itemzflow for example: nfs://192.168.1.14/fpkgs
 * This will give you access to the following sample path D:\PS4\Games\fpkgs
+8. For more instructions and connection settings see https://consolemods.org/wiki/PS4:How_to_install_PKG_files
 
 # To do 
 1. Make the GUI create a batch file for future use when the directory and IP don't need to be changed.
