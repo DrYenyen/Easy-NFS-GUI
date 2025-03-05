@@ -9,7 +9,7 @@ on:
     paths-ignore:
       - '**.md'  
       - 'README.md'
-
+      
 jobs:
   build-Windows:
     runs-on: windows-latest
@@ -36,4 +36,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        gh release create v1.0.0 dist/Easy-NFS-GUI.exe --title "Easy-NFS-GUI v1.0" 
+        gh release create v1.1.0 dist/Easy NFS GUI.exe --title "Easy-NFS-GUI v1.1" 

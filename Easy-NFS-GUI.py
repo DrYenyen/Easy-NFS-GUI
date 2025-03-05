@@ -71,7 +71,6 @@ def clear_all_settings():
     set_window_size()  
     save_user_choices() 
 
-
 def select_directory():
     directory = filedialog.askdirectory()
     if directory:
@@ -88,6 +87,10 @@ def run_command():
         return 
 
     command = f"WinNFSd.exe -addr {ip} {directory} /"
+    # Batch file for future use
+    with open("run_NFS.bat", "w") as batch_file:
+        batch_file.write(command)
+    
     subprocess.call(["start", "cmd", "/k", command], shell=True)
 
 # Open Network Connections command idk just if someone wants it :/
