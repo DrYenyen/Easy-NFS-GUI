@@ -2,6 +2,7 @@
 A GUI to help setup a Windows NFS for use with Itemzflow.
 Most of the source code for this came from my other GUI for PPPwn. 
 And it is as always open source this time it compiles and releases through github since i only need to release the exe.
+Press on "More Info" if windows flags it as an unrecognised app the "Run anyway"
 
 # Instructions  
 1. The GUI needs this NFS server https://github.com/winnfsd/winnfsd/releases/tag/2.4.0 in the same directory as it. 
@@ -15,5 +16,5 @@ And it is as always open source this time it compiles and releases through githu
 * This will give you access to the following sample path D:\PS4\Games\fpkgs
 8. For more instructions and connection settings see https://consolemods.org/wiki/PS4:How_to_install_PKG_files
 
-# To do 
-1. Make the GUI create a batch file for future use when the directory and IP don't need to be changed.
+# Batch file 
+The GUI creates a batch file for future use. To change the saved command in it just run the GUI once and change the settings then press "Run NFS" the batch file will be updated with the new settings.
